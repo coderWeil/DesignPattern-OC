@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>status</key>
+	<integer>1</integer>
+	<key>Debug</key>
+	<dict>
+		<key>Server</key>
+		<string>我是测试环境的URL</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>Server</key>
+		<string>我是正式环境的URL</string>
+	</dict>
+	<key>Pre</key>
+	<dict>
+		<key>Server</key>
+		<string>我是预发环境的URL</string>
+	</dict>
+</dict>
+</plist>

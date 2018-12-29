@@ -8,19 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "Facade.h"
-//#import "ModuleA.h"
-//#import "ModuleB.h"
-//#import "ModuleC.h"
+#import "ModuleA.h"
+#import "ModuleB.h"
+#import "ModuleC.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//       id<ModuleAProtocol> moduleA = [[ModuleA alloc] init];
-//        [moduleA testModuleA];
-//        id<ModuleBProtocol> moduleB = [[ModuleB alloc] init];
-//        [moduleB testModuleB];
-//        id<ModuleCProtocol> moduleC = [[ModuleC alloc] init];
-//        [moduleC testModuleC];
-        
+        //普通方法
+       id<ModuleAProtocol> moduleA = [[ModuleA alloc] init];
+        [moduleA testModuleA];
+        id<ModuleBProtocol> moduleB = [[ModuleB alloc] init];
+        [moduleB testModuleB];
+        id<ModuleCProtocol> moduleC = [[ModuleC alloc] init];
+        [moduleC testModuleC];
+        //外观模式
         [Facade test];
        
     }

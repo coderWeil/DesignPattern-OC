@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		33AB417221E58FAC00767678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB417121E58FAC00767678 /* main.m */; };
+		33AB41C021E5EA9500767678 /* Houser.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41BF21E5EA9500767678 /* Houser.m */; };
+		33AB41CF21E5FC4000767678 /* Tenant.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41CE21E5FC4000767678 /* Tenant.m */; };
+		33AB41D221E5FE7000767678 /* TenantTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41D121E5FE7000767678 /* TenantTwo.m */; };
+		33AB41D521E5FE7900767678 /* TenantThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41D421E5FE7900767678 /* TenantThree.m */; };
+		33AB41D921E6006200767678 /* BasePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41D821E6006200767678 /* BasePerson.m */; };
+		33AB41DC21E6007200767678 /* HouseOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41DB21E6007200767678 /* HouseOwner.m */; };
+		33AB41DF21E6009100767678 /* NewTenant.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41DE21E6009100767678 /* NewTenant.m */; };
+		33AB41E221E600A200767678 /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41E121E600A200767678 /* ConcreteMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,23 @@
 /* Begin PBXFileReference section */
 		33AB416E21E58FAC00767678 /* 中介者模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "中介者模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AB417121E58FAC00767678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33AB41BE21E5EA9500767678 /* Houser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Houser.h; sourceTree = "<group>"; };
+		33AB41BF21E5EA9500767678 /* Houser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Houser.m; sourceTree = "<group>"; };
+		33AB41CD21E5FC4000767678 /* Tenant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tenant.h; sourceTree = "<group>"; };
+		33AB41CE21E5FC4000767678 /* Tenant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tenant.m; sourceTree = "<group>"; };
+		33AB41D021E5FE7000767678 /* TenantTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenantTwo.h; sourceTree = "<group>"; };
+		33AB41D121E5FE7000767678 /* TenantTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenantTwo.m; sourceTree = "<group>"; };
+		33AB41D321E5FE7900767678 /* TenantThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenantThree.h; sourceTree = "<group>"; };
+		33AB41D421E5FE7900767678 /* TenantThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenantThree.m; sourceTree = "<group>"; };
+		33AB41D721E6006200767678 /* BasePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePerson.h; sourceTree = "<group>"; };
+		33AB41D821E6006200767678 /* BasePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePerson.m; sourceTree = "<group>"; };
+		33AB41DA21E6007200767678 /* HouseOwner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseOwner.h; sourceTree = "<group>"; };
+		33AB41DB21E6007200767678 /* HouseOwner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseOwner.m; sourceTree = "<group>"; };
+		33AB41DD21E6009100767678 /* NewTenant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTenant.h; sourceTree = "<group>"; };
+		33AB41DE21E6009100767678 /* NewTenant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTenant.m; sourceTree = "<group>"; };
+		33AB41E021E600A200767678 /* ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
+		33AB41E121E600A200767678 /* ConcreteMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteMediator.m; sourceTree = "<group>"; };
+		33AB41E321E600AB00767678 /* MediatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +82,42 @@
 		33AB417021E58FAC00767678 /* 中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				33AB41D621E6004500767678 /* 中介者处理 */,
+				33AB41C121E5EAC600767678 /* 普通处理方式 */,
 				33AB417121E58FAC00767678 /* main.m */,
 			);
 			path = "中介者模式";
+			sourceTree = "<group>";
+		};
+		33AB41C121E5EAC600767678 /* 普通处理方式 */ = {
+			isa = PBXGroup;
+			children = (
+				33AB41BE21E5EA9500767678 /* Houser.h */,
+				33AB41BF21E5EA9500767678 /* Houser.m */,
+				33AB41CD21E5FC4000767678 /* Tenant.h */,
+				33AB41CE21E5FC4000767678 /* Tenant.m */,
+				33AB41D021E5FE7000767678 /* TenantTwo.h */,
+				33AB41D121E5FE7000767678 /* TenantTwo.m */,
+				33AB41D321E5FE7900767678 /* TenantThree.h */,
+				33AB41D421E5FE7900767678 /* TenantThree.m */,
+			);
+			path = "普通处理方式";
+			sourceTree = "<group>";
+		};
+		33AB41D621E6004500767678 /* 中介者处理 */ = {
+			isa = PBXGroup;
+			children = (
+				33AB41D721E6006200767678 /* BasePerson.h */,
+				33AB41D821E6006200767678 /* BasePerson.m */,
+				33AB41DA21E6007200767678 /* HouseOwner.h */,
+				33AB41DB21E6007200767678 /* HouseOwner.m */,
+				33AB41DD21E6009100767678 /* NewTenant.h */,
+				33AB41DE21E6009100767678 /* NewTenant.m */,
+				33AB41E021E600A200767678 /* ConcreteMediator.h */,
+				33AB41E121E600A200767678 /* ConcreteMediator.m */,
+				33AB41E321E600AB00767678 /* MediatorProtocol.h */,
+			);
+			path = "中介者处理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AB41DC21E6007200767678 /* HouseOwner.m in Sources */,
 				33AB417221E58FAC00767678 /* main.m in Sources */,
+				33AB41E221E600A200767678 /* ConcreteMediator.m in Sources */,
+				33AB41DF21E6009100767678 /* NewTenant.m in Sources */,
+				33AB41D921E6006200767678 /* BasePerson.m in Sources */,
+				33AB41C021E5EA9500767678 /* Houser.m in Sources */,
+				33AB41D521E5FE7900767678 /* TenantThree.m in Sources */,
+				33AB41D221E5FE7000767678 /* TenantTwo.m in Sources */,
+				33AB41CF21E5FC4000767678 /* Tenant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

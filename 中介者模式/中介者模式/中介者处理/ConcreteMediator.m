@@ -2,18 +2,24 @@
 //  ConcreteMediator.m
 //  中介者模式
 //
-//  Created by weil on 2019/1/9.
+//  Created by weil on 2019/1/10.
 //  Copyright © 2019 allyoga. All rights reserved.
 //
 
 #import "ConcreteMediator.h"
+#import "ProductObj.h"
+#import "IOSObj.h"
+#import "AndroidObj.h"
+#import "ServerObj.h"
 
 @implementation ConcreteMediator
-- (void)constactWithMessage:(NSString *)message person:(BasePerson *)person {
-    if (person == self.houseOwner) {
-        [self.tenant tenantMessage:message];
-    }else if (person == self.tenant) {
-        [self.houseOwner houseOwnerMessage:message];
+- (void)publishAssignment:(AbstractObj *)obj {
+    if (obj == self.product) {
+        [self.iOS receiveDataFromObj:obj];
+        [self.android receiveDataFromObj:obj];
+        [self.server receiveDataFromObj:obj];
+    }else {
+        [self.product receiveDataFromObj:obj];
     }
 }
 @end

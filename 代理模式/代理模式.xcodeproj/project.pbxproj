@@ -7,17 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33AB417221E58FAC00767678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB417121E58FAC00767678 /* main.m */; };
-		33AB41EB21E6DA4C00767678 /* AbstractObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41EA21E6DA4C00767678 /* AbstractObj.m */; };
-		33AB41EE21E6DAA400767678 /* ProductObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41ED21E6DAA400767678 /* ProductObj.m */; };
-		33AB41FD21E6EB2800767678 /* IOSObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41FC21E6EB2800767678 /* IOSObj.m */; };
-		33AB420021E6EB3100767678 /* AndroidObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB41FF21E6EB3100767678 /* AndroidObj.m */; };
-		33AB420321E6EB3A00767678 /* ServerObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB420221E6EB3A00767678 /* ServerObj.m */; };
-		33AB420621E6EB4F00767678 /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB420521E6EB4F00767678 /* ConcreteMediator.m */; };
+		33AB421421E721AC00767678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB421321E721AC00767678 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		33AB416C21E58FAC00767678 /* CopyFiles */ = {
+		33AB420E21E721AC00767678 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,25 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33AB416E21E58FAC00767678 /* 中介者模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "中介者模式"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33AB417121E58FAC00767678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33AB41E521E6DA0500767678 /* Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
-		33AB41E921E6DA4C00767678 /* AbstractObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractObj.h; sourceTree = "<group>"; };
-		33AB41EA21E6DA4C00767678 /* AbstractObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractObj.m; sourceTree = "<group>"; };
-		33AB41EC21E6DAA400767678 /* ProductObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductObj.h; sourceTree = "<group>"; };
-		33AB41ED21E6DAA400767678 /* ProductObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductObj.m; sourceTree = "<group>"; };
-		33AB41FB21E6EB2800767678 /* IOSObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSObj.h; sourceTree = "<group>"; };
-		33AB41FC21E6EB2800767678 /* IOSObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSObj.m; sourceTree = "<group>"; };
-		33AB41FE21E6EB3100767678 /* AndroidObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidObj.h; sourceTree = "<group>"; };
-		33AB41FF21E6EB3100767678 /* AndroidObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidObj.m; sourceTree = "<group>"; };
-		33AB420121E6EB3A00767678 /* ServerObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerObj.h; sourceTree = "<group>"; };
-		33AB420221E6EB3A00767678 /* ServerObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerObj.m; sourceTree = "<group>"; };
-		33AB420421E6EB4F00767678 /* ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
-		33AB420521E6EB4F00767678 /* ConcreteMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteMediator.m; sourceTree = "<group>"; };
+		33AB421021E721AC00767678 /* 代理模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "代理模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AB421321E721AC00767678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33AB416B21E58FAC00767678 /* Frameworks */ = {
+		33AB420D21E721AC00767678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,121 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33AB416521E58FAC00767678 = {
+		33AB420721E721AC00767678 = {
 			isa = PBXGroup;
 			children = (
-				33AB417021E58FAC00767678 /* 中介者模式 */,
-				33AB416F21E58FAC00767678 /* Products */,
+				33AB421221E721AC00767678 /* 代理模式 */,
+				33AB421121E721AC00767678 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		33AB416F21E58FAC00767678 /* Products */ = {
+		33AB421121E721AC00767678 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33AB416E21E58FAC00767678 /* 中介者模式 */,
+				33AB421021E721AC00767678 /* 代理模式 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33AB417021E58FAC00767678 /* 中介者模式 */ = {
+		33AB421221E721AC00767678 /* 代理模式 */ = {
 			isa = PBXGroup;
 			children = (
-				33AB41D621E6004500767678 /* 中介者处理 */,
-				33AB417121E58FAC00767678 /* main.m */,
+				33AB421321E721AC00767678 /* main.m */,
 			);
-			path = "中介者模式";
-			sourceTree = "<group>";
-		};
-		33AB41D621E6004500767678 /* 中介者处理 */ = {
-			isa = PBXGroup;
-			children = (
-				33AB41E521E6DA0500767678 /* Mediator.h */,
-				33AB41E921E6DA4C00767678 /* AbstractObj.h */,
-				33AB41EA21E6DA4C00767678 /* AbstractObj.m */,
-				33AB41EC21E6DAA400767678 /* ProductObj.h */,
-				33AB41ED21E6DAA400767678 /* ProductObj.m */,
-				33AB41FB21E6EB2800767678 /* IOSObj.h */,
-				33AB41FC21E6EB2800767678 /* IOSObj.m */,
-				33AB41FE21E6EB3100767678 /* AndroidObj.h */,
-				33AB41FF21E6EB3100767678 /* AndroidObj.m */,
-				33AB420121E6EB3A00767678 /* ServerObj.h */,
-				33AB420221E6EB3A00767678 /* ServerObj.m */,
-				33AB420421E6EB4F00767678 /* ConcreteMediator.h */,
-				33AB420521E6EB4F00767678 /* ConcreteMediator.m */,
-			);
-			path = "中介者处理";
+			path = "代理模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33AB416D21E58FAC00767678 /* 中介者模式 */ = {
+		33AB420F21E721AC00767678 /* 代理模式 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33AB417521E58FAC00767678 /* Build configuration list for PBXNativeTarget "中介者模式" */;
+			buildConfigurationList = 33AB421721E721AC00767678 /* Build configuration list for PBXNativeTarget "代理模式" */;
 			buildPhases = (
-				33AB416A21E58FAC00767678 /* Sources */,
-				33AB416B21E58FAC00767678 /* Frameworks */,
-				33AB416C21E58FAC00767678 /* CopyFiles */,
+				33AB420C21E721AC00767678 /* Sources */,
+				33AB420D21E721AC00767678 /* Frameworks */,
+				33AB420E21E721AC00767678 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "中介者模式";
-			productName = "中介者模式";
-			productReference = 33AB416E21E58FAC00767678 /* 中介者模式 */;
+			name = "代理模式";
+			productName = "代理模式";
+			productReference = 33AB421021E721AC00767678 /* 代理模式 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33AB416621E58FAC00767678 /* Project object */ = {
+		33AB420821E721AC00767678 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = allyoga;
 				TargetAttributes = {
-					33AB416D21E58FAC00767678 = {
+					33AB420F21E721AC00767678 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 33AB416921E58FAC00767678 /* Build configuration list for PBXProject "中介者模式" */;
+			buildConfigurationList = 33AB420B21E721AC00767678 /* Build configuration list for PBXProject "代理模式" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 33AB416521E58FAC00767678;
-			productRefGroup = 33AB416F21E58FAC00767678 /* Products */;
+			mainGroup = 33AB420721E721AC00767678;
+			productRefGroup = 33AB421121E721AC00767678 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33AB416D21E58FAC00767678 /* 中介者模式 */,
+				33AB420F21E721AC00767678 /* 代理模式 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33AB416A21E58FAC00767678 /* Sources */ = {
+		33AB420C21E721AC00767678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AB417221E58FAC00767678 /* main.m in Sources */,
-				33AB41FD21E6EB2800767678 /* IOSObj.m in Sources */,
-				33AB41EB21E6DA4C00767678 /* AbstractObj.m in Sources */,
-				33AB420621E6EB4F00767678 /* ConcreteMediator.m in Sources */,
-				33AB41EE21E6DAA400767678 /* ProductObj.m in Sources */,
-				33AB420321E6EB3A00767678 /* ServerObj.m in Sources */,
-				33AB420021E6EB3100767678 /* AndroidObj.m in Sources */,
+				33AB421421E721AC00767678 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		33AB417321E58FAC00767678 /* Debug */ = {
+		33AB421521E721AC00767678 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		33AB417421E58FAC00767678 /* Release */ = {
+		33AB421621E721AC00767678 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +236,7 @@
 			};
 			name = Release;
 		};
-		33AB417621E58FAC00767678 /* Debug */ = {
+		33AB421821E721AC00767678 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		33AB417721E58FAC00767678 /* Release */ = {
+		33AB421921E721AC00767678 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -303,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33AB416921E58FAC00767678 /* Build configuration list for PBXProject "中介者模式" */ = {
+		33AB420B21E721AC00767678 /* Build configuration list for PBXProject "代理模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33AB417321E58FAC00767678 /* Debug */,
-				33AB417421E58FAC00767678 /* Release */,
+				33AB421521E721AC00767678 /* Debug */,
+				33AB421621E721AC00767678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33AB417521E58FAC00767678 /* Build configuration list for PBXNativeTarget "中介者模式" */ = {
+		33AB421721E721AC00767678 /* Build configuration list for PBXNativeTarget "代理模式" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33AB417621E58FAC00767678 /* Debug */,
-				33AB417721E58FAC00767678 /* Release */,
+				33AB421821E721AC00767678 /* Debug */,
+				33AB421921E721AC00767678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33AB416621E58FAC00767678 /* Project object */;
+	rootObject = 33AB420821E721AC00767678 /* Project object */;
 }
